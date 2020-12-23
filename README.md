@@ -112,10 +112,7 @@ make destroy
 Start VNC and connect to the server graphically:
 
 ```bash
-# On host
 ssh -i <private-key.pem> -L 5901:localhost:5901 kali@<instance ip>
-# On EC2
-> vnc-start
 ```
 Then, start a VNC client like [Remmina](https://remmina.org/how-to-install-remmina/) and use the server address `localhost:1`.
 Enter the VNC password `goodhacks`.
